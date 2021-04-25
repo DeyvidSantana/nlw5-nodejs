@@ -1,0 +1,62 @@
+# Creating Node Project
+
+- npm init -y
+
+# Installing Express.js
+
+- npm install express --save
+- npm i --save-dev @types/express (Dev dependency)
+
+# Installing Typescript
+
+- npm install -D typescript (Dev dependency)
+
+# Creating tsconfig.json file
+
+- yarn tsc --init
+
+# Installing ts-node-dev (Node translater)
+
+- npm install -D ts-node-dev (Dev dependency)
+
+# Running Node server
+
+- yarn dev
+
+# Installing typeorm for database (similar to EF .NET)
+
+- npm install typeorm reflect-metadata sqlite3 --save
+
+# Creating first migration with typeorm
+
+- yarn typeorm migration:create -n CreateSettings
+
+# Running the migratio
+
+- yarn typeorm migration:run
+
+# Installing uuid library
+
+- npm install uuid 
+- npm install @types/uuid -D (Dev dependency)
+
+# Installing socket.io library (for WebSocket)
+
+- npm install socket.io
+- npm install @types/socket.io -D (Dev dependency)
+
+# Installing ejs
+
+- npm install ejs
+
+# Url client frontend project
+
+- http://localhost:3333/pages/client
+
+# Installing socket client
+
+- npm install socket.io-client
+
+# Url admin frontend project
+
+- http://localhost:3333/pages/admin
